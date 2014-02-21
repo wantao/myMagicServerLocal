@@ -1,0 +1,45 @@
+#ifndef LOGINMISSION_H
+#define LOGINMISSION_H
+
+//登陆任务ID最小值
+#define LOGIN_MISSION_MIN_ID	1
+
+//登陆任务ID最大值
+#define LOGIN_MISSION_MAX_ID	7
+
+//第一次登陆固定送2000金币
+#define FIRST_LOGIN_MISSION_ID	1
+
+#define FIRST_LOGIN_AWARD_GOLD	2000
+
+//第二次登陆固定送200友情值
+#define SECOND_LOGIN_MISSION_ID	2
+
+#define SECOND_LOGIN_AWARD_FRIEND_VALUE	200
+
+//第三次登陆固定送体力药水1个
+#define THIRD_LOGIN_MISSION_ID	3
+
+#define THIRD_LOGIN_AWARD_ENERGY	20
+
+//第四次登陆固定送5000金币
+#define FOURTH_LOGIN_MISSION_ID	4
+
+#define FOURTH_LOGIN_AWARD_GOLD	5000
+
+//第五次登陆固定送500友情值
+#define FIFTH_LOGIN_MISSION_ID	5
+
+#define FIFTH_LOGIN_AWARD_FRIEND_VALUE	500
+
+//第六次登陆固定送100魔石
+#define SIXTH_LOGIN_MISSION_ID	6
+
+#define SIXTH_LOGIN_AWARD_DIAMOND	100
+
+//第七次登陆固定送1张5星特殊卡片（经验专用）
+#define SEVENTH_LOGIN_MISSION_ID	7
+
+#define SEVEVTH_LOGIN_AWARD_CARD_ID	2004
+
+#endif

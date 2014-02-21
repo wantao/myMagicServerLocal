@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'magicCreateTable'
+		'magicCreateTable.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

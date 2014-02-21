@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'magicPayOrderServer'
+		'magicPayOrderServer.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

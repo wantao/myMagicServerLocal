@@ -1,0 +1,39 @@
+#ifndef ERRORCODE_H
+#define ERRORCODE_H
+
+typedef enum errorCodeEnum
+{
+	K_REGIST_ACCOUNT_REPEAT	= 10001,//注册帐号重复
+	K_REGIST_USERNAME_REPEAT,//注册昵称重复
+	K_ACCOUNT_OR_PASSWD_ERROR,	//登录帐号或密码错误
+	K_ACCOUNT_UNNORMAL,//帐号异常（token值错误）
+	K_AWARD_HAS_GOT,//奖励已领取
+	K_MISSION_NOT_FINISHED,//任务未完成
+	K_BACKPACK_HAS_FULL,//背包已满
+	K_OPPOSIT_FRIEND_FULL,//对方好友已满
+	K_OWN_FRIEND_FULL,//自己好友已满
+	K_OPPOSIT_IS_FRIEND,//对方已经是您的好友
+	K_FRIEND_IS_NOT_EXIST,//好友不存在
+	K_FRIEND_VALUE_HAS_GOT,//友情值已领取
+	K_MAGIC_STONE_NOT_ENOUGH,//魔石不足
+	K_TO_MAX_BUY_ENERGY_TIME,//达到最大购买次数
+	K_FRIEND_VALUE_NOT_ENOUGH,//友情值不足
+	K_CARD_NOT_EXIST,//卡牌不存在
+	K_GOLD_NOT_ENOUGH,//金币不足
+	K_CARD_LEVEL_HAS_TO_MAX,//卡牌已达到最大等级
+	K_CARD_CAN_NOT_EVOLUTION,//卡牌不可合成
+	K_EVOLUTION_MATERIAL_NOT_ENOUGH,//合成材料不足
+	K_SKILL_EXP_NOT_ENOUGH,//技能熟练度不足
+	K_SKILL_LEVEL_TO_MAX,//技能达到最大等级
+	K_CAPITOR_NOT_EXIST,//队长卡牌不存在
+	K_BATTLE_ID_NOT_EXIST,//副本不存在
+	K_ENERGY_NOT_ENOUGH,//体力不足
+	K_NOT_ENTER_BATTLE,//未进入副本，防止重复发送副本结果请求，骗取技能熟练度
+	K_LEVEL_OF_ENTER_BATTLE_NOT_ENOUGH, //用户等级不够进入副本
+	K_TO_MAX_GET_FRIEND_VALUE_COUNT,	//以达到最大领取友情值次数
+	K_TO_MAX_FRIEND_VALUE,	//友情值已满
+	K_TO_MAX_ENTER_ACTIVE_COUNT	//达到今日进入活动副本最大次数
+	//K_TO_MAX_ENERGY	//体力值已满
+}errorCodeEnum;
+
+#endif
