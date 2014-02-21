@@ -1,0 +1,18 @@
+// magicServer.idl : magicServer 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(magicServer.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(1A9D5C39-CF7F-4683-A312-BAB30D68BA52),
+	version(1.0),
+	helpstring("magicServer 1.0 类型库")
+]
+library magicServerLib
+{
+	importlib("stdole2.tlb");
+};

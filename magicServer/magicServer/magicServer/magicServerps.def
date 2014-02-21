@@ -1,0 +1,8 @@
+
+LIBRARY      "magicServerPS"
+
+EXPORTS
+	DllGetClassObject		PRIVATE
+	DllCanUnloadNow			PRIVATE
+	DllRegisterServer		PRIVATE
+	DllUnregisterServer		PRIVATE
